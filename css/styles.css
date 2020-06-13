@@ -28,12 +28,6 @@ html {
 }
 /*Utilities*/
 .container {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 3px solid red;
 }
 
 /*Header*/
@@ -144,7 +138,14 @@ html {
 /*section*/
 .section .container {
   display: flex;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 3px solid blue;
 }
+
 .section-title {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -191,6 +192,21 @@ html {
   color: var(--accent-color);
 }
 /*feature*/
+.feature-list {
+  display: flex;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 3px solid red;
+}
+.aria {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .feature-list .title {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -199,6 +215,7 @@ html {
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
+  outline: 3px solid green;
 }
 .feature-list .text {
   color: var(--secondary-text-color);
