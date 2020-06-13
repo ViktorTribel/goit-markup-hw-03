@@ -30,6 +30,7 @@ html {
   margin-right: auto;
   outline: 3px solid blueviolet;
 }
+
 /*Header*/
 .list {
   list-style: none;
@@ -43,21 +44,27 @@ html {
   line-height: 1.2;
   font-family: Raleway;
 }
+
 .logo-second {
   color: var(--accent-color);
 }
+
 .logo:hover,
 .logo-second:hover {
   color: var(--accent-color);
 }
 
 /*site-nav*/
+
+.conteiner,
 .site-nav {
   display: flex;
 }
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
+
+.site-nav .item + .item {
+  margin-left: 50px;
 }
+
 .site-nav .link {
   display: block;
   padding-top: 32px;
@@ -71,15 +78,22 @@ html {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 /*auth-nav*/
 .info {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -89,10 +103,19 @@ html {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.auth-nav {
+  display: flex;
+}
+.auth-nav .item + .item {
+  margin-left: 30px;
+}
+
 .info:hover,
 .info:focus {
   color: var(--accent-color);
 }
+
 /*hero*/
 .hero-title {
   color: var(--whit-color);
