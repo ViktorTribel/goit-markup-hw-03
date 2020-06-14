@@ -7,34 +7,13 @@
   --accent-color: #2196f3;
   --footer-color: #2f303a;
 }
-html {
-  box-sizing: border-box;
-}
 .page {
   color: var(--primary-text-color);
-  width: 1600px;
-  padding-left: 20px;
-  padding-right: 20px;
-
   background-color: var(--background-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  outline: 3px solid blueviolet;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-/*Utilities*/
-.container {
 }
 
-/*Header*/
-.header-item {
-  background: var(--whit-color);
-  outline: 3px solid blueviolet;
-}
 .list {
   list-style: none;
 }
@@ -46,35 +25,17 @@ html {
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  margin-left: 215px;
 }
-
 .logo-second {
   color: var(--accent-color);
 }
-
 .logo:hover,
 .logo-second:hover {
   color: var(--accent-color);
 }
 
 /*site-nav*/
-
-.content,
-.site-nav {
-  display: flex;
-  align-items: center;
-}
-
-.site-nav .item + .item {
-  margin-left: 50px;
-}
-
 .site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -82,24 +43,16 @@ html {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  margin-left: 50px;
 }
-
 .site-nav .link.current {
   color: var(--accent-color);
 }
-
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-
 /*auth-nav*/
 .info {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -109,20 +62,10 @@ html {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
-.auth-nav {
-  display: flex;
-  margin-left: 305px;
-}
-.auth-nav .item + .item {
-  margin-left: 30px;
-}
-
 .info:hover,
 .info:focus {
   color: var(--accent-color);
 }
-
 /*hero*/
 .hero-title {
   color: var(--whit-color);
@@ -136,16 +79,6 @@ html {
   text-transform: uppercase;
 }
 /*section*/
-.section .container {
-  display: flex;
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 3px solid blue;
-}
-
 .section-title {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -192,21 +125,6 @@ html {
   color: var(--accent-color);
 }
 /*feature*/
-.feature-list {
-  display: flex;
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 3px solid red;
-}
-.aria {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .feature-list .title {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -215,7 +133,6 @@ html {
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
-  outline: 3px solid green;
 }
 .feature-list .text {
   color: var(--secondary-text-color);
