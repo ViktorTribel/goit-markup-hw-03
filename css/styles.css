@@ -258,10 +258,6 @@ p {
   font-size: 14px;
   line-height: 1.7;
 }
-.adres:hover,
-.adres:focus {
-  color: var(--accent-color);
-}
 .adres-info {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
