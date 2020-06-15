@@ -12,6 +12,27 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: inherit;
+  font-family: inherit;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+p {
+  margin: 0;
+}
+
 .page {
   margin: 0;
   padding: 0;
@@ -29,21 +50,6 @@ html {
 .main-nav {
   display: flex;
   align-items: center;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: 0;
-}
-p {
-  margin: 0;
 }
 
 /*Utilits*/
@@ -353,4 +359,14 @@ p {
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
+}
+.button-primary {
+  color: var(--whit-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
 }
