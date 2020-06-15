@@ -71,11 +71,6 @@ p {
   list-style: none;
   display: flex;
 }
-.section .item {
-  display: block;
-  width: 370px;
-  outline: 3px solid red;
-}
 
 .logo {
   color: var(--primary-text-color);
@@ -164,20 +159,6 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.button-primary {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: var(--whit-color);
-  background-color: var(--accent-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
 }
 
 /*section*/
@@ -378,4 +359,18 @@ p {
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
+}
+.button-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--whit-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
 }
