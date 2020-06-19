@@ -220,10 +220,10 @@ p {
 }
 .feature-list .item {
   width: 270px;
+  padding-right: 30px;
 }
-
 .feature-list .title {
-  margin-top: 30px;
+  margin-bottom: 10px;
 
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -234,14 +234,20 @@ p {
   text-transform: uppercase;
 }
 .feature-list .text {
-  margin-top: 10px;
-
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+}
+
+.feature-images {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 /*customers-img*/
 .section .img-hover:hover {
