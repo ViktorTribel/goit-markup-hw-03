@@ -55,11 +55,10 @@ p {
 
 /*Utilits*/
 .container {
-  display: flex;
   margin-top: 94px;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -168,6 +167,8 @@ p {
 
 /*section*/
 .section-title {
+  margin-bottom: 30px;
+
   color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -175,6 +176,10 @@ p {
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
+}
+section .list-img {
+  width: 370px;
+  padding-right: 30px;
 }
 .section .text-title {
   color: var(--whit-color);
@@ -217,6 +222,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   outline: 3px solid red;
+  background-color: green;
 }
 .feature-list .item {
   width: 270px;
