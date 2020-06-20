@@ -229,8 +229,6 @@ p {
 .feature-list {
   display: flex;
   flex-wrap: wrap;
-  outline: 3px solid red;
-  background-color: green;
 }
 .feature-list .item {
   width: 270px;
