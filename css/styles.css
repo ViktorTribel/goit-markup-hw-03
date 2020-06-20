@@ -180,7 +180,6 @@ p {
 
 .our-boxinfo {
   margin-right: 30px;
-  background-color: greenyellow;
 }
 
 .list-img {
@@ -209,6 +208,7 @@ p {
   text-align: center;
 }
 .section .work-list {
+  padding-bottom: 16px;
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -221,6 +221,9 @@ p {
   color: var(--secondary-text-color);
 }
 /*ameil*/
+.email-list {
+  padding-bottom: 24px;
+}
 .email:hover,
 .email:focus {
   color: var(--accent-color);
