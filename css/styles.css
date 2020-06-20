@@ -250,11 +250,6 @@ p {
   margin-bottom: 30px;
 }
 /*customers-img*/
-
-.customers-img {
-  padding-left: 30px;
-}
-
 .section .img-hover:hover {
   color: var(--accent-color);
 }
