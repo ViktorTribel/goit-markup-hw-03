@@ -389,6 +389,13 @@ p {
 .portfolio-element:nth-child(-n + 3) {
   margin-bottom: 0;
 }
+.option {
+  min-width: 73px;
+  padding: 6px 22px;
+  display: inline;
+  background-color: var(--secondary-background-color);
+}
+
 .option:hover,
 .option:focus {
   color: var(--whit-color);
