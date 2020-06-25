@@ -40,6 +40,7 @@ p {
 }
 
 .page {
+  width: 1600px;
   margin: 0;
   padding: 0;
   color: var(--primary-text-color);
@@ -179,6 +180,8 @@ p {
 .zero {
   padding-top: 50px;
   padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .section-title {
   padding-top: 94px;
