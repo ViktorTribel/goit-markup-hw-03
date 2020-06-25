@@ -150,7 +150,7 @@ p {
 /*hero*/
 .hero-title {
   padding-top: 200px;
-  padding-bottom: 30px;
+  padding-bottom: 30p;
 
   color: var(--whit-color);
   font-family: Roboto;
@@ -264,7 +264,8 @@ p {
 }
 
 .feature-list .title {
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -284,11 +285,7 @@ p {
 }
 
 .feature-images {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 30px;
+  padding: 25px 100px;
 }
 /*customers-img*/
 .client-logo {
