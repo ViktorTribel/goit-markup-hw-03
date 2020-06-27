@@ -56,6 +56,8 @@ p {
 
 /*Utilits*/
 .container {
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -71,6 +73,9 @@ p {
   margin: 0;
   list-style: none;
   display: flex;
+}
+.double-section {
+  padding-bottom: 94px;
 }
 
 .logo {
@@ -149,9 +154,14 @@ p {
   color: var(--accent-color);
 }
 /*hero*/
+.hero-background {
+  height: 600px;
+  background-color: grey;
+}
 .hero-title {
   padding-top: 200px;
   padding-bottom: 30px;
+  text-align: center;
 
   color: var(--whit-color);
   font-family: Roboto;
@@ -163,26 +173,8 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.container-hero {
-  width: 1600px;
-  height: 600px;
-  text-align: center;
-}
 
 /*section*/
-.container-second {
-  width: 1600px;
-  margin-top: 94px;
-  margin-bottom: 94px;
-  background-color: var(--secondary-background-color);
-}
-
-.zero {
-  padding-top: 50px;
-  padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
-}
 .section-title {
   padding-top: 94px;
   padding-bottom: 50px;
@@ -196,6 +188,9 @@ p {
   text-align: center;
 }
 
+.customers-img {
+  padding-bottom: 94px;
+}
 .our-boxinfo {
   margin-right: 30px;
 }
@@ -289,11 +284,13 @@ p {
 
 .feature-images {
   padding: 25px 100px;
+  background-color: var(--secondary-background-color);
 }
 /*customers-img*/
 .client-logo {
   margin-right: 30px;
 }
+
 .section .img-hover:hover {
   color: var(--accent-color);
 }
@@ -336,8 +333,25 @@ p {
 .adres-info:focus {
   color: var(--accent-color);
 }
+
+/*footer*/
+.foter-bacground {
+  background-color: #2f303a;
+}
+.item-logo {
+  padding-top:
+  padding-left:
+}
+.item-button {
+  padding-top:
+  padding-left: 
+}
+.item-mailing {
+  padding-top: 
+  padding-left: 
+}
 .developed {
-  margin-top: 68px;
+  padding-top: 68px;
   color: rgba(255, 255, 255, 0.4);
   font-family: Roboto;
   font-style: normal;
@@ -455,31 +469,4 @@ p {
   line-height: 1.8;
   text-decoration: none;
   letter-spacing: 0.06em;
-}
-/*footer*/
-.foter-bacground {
-  margin-top: 94px;
-  background-color: #2f303a;
-}
-.footer-container {
-  display: flex;
-  margin-top: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.item-logo {
-  padding-top: 45px;
-  padding-left: 214px;
-}
-.item-button {
-  padding-top: 57px;
-  margin-left: 69px;
-}
-.item-mailing {
-  padding-top: 57px;
-  margin-left: 94px;
 }
