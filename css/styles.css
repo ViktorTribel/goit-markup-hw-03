@@ -307,6 +307,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
 }
+
 .button:hover,
 .button:focus {
   color: var(--whit-color);
@@ -440,7 +441,7 @@ p {
 }
 /*option-list*/
 .menu {
-  margin-top: 20px;
+  padding-top: 20px;
 
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -451,7 +452,7 @@ p {
   letter-spacing: 0.06em;
 }
 .addition {
-  margin-top: 8px;
+  padding-top: 8px;
 
   color: var(--secondary-text-color);
   font-family: Roboto;
