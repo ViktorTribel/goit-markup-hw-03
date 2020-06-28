@@ -329,6 +329,10 @@ p {
   font-size: 14px;
   line-height: 1.7;
 }
+.adres-menu {
+  display: block;
+}
+
 .adres-info:hover,
 .adres-info:focus {
   color: var(--accent-color);
@@ -338,17 +342,22 @@ p {
 .foter-bacground {
   background-color: #2f303a;
 }
+.footer {
+  display: flex;
+}
 .item-logo {
-  padding-top:
-  padding-left:
+  padding-top: 45px;
+ }
+
+.item-adres {padding-top: 8px
+  ;
+
 }
+
 .item-button {
-  padding-top:
-  padding-left: 
-}
+
 .item-mailing {
-  padding-top: 
-  padding-left: 
+
 }
 .developed {
   padding-top: 68px;
