@@ -56,8 +56,6 @@ p {
 
 /*Utilits*/
 .container {
-  justify-content: center;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -332,6 +330,9 @@ p {
 .adres-menu {
   display: block;
 }
+.adres-pozitsiya {
+  padding-top: 9px;
+}
 
 .adres-info:hover,
 .adres-info:focus {
@@ -346,21 +347,30 @@ p {
   display: flex;
 }
 .item-logo {
+  margin-right: 69px;
   padding-top: 45px;
- }
+}
 
-.item-adres {padding-top: 8px
-  ;
-
+.item-adres {
+  padding-top: 9px;
 }
 
 .item-button {
+  margin-right: 94px;
+  padding-top: 57px;
+}
+.sait-button {
+  padding-top: 20px;
+}
+.href-primary {
+  text-align: center;
+}
 
 .item-mailing {
-
+  padding-top: 57px;
 }
 .developed {
-  padding-top: 68px;
+  padding-top: 18px;
   color: rgba(255, 255, 255, 0.4);
   font-family: Roboto;
   font-style: normal;
@@ -368,6 +378,9 @@ p {
   font-size: 12px;
   line-height: 2;
   text-align: center;
+}
+.border {
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 /*portfolio-nav*/
 .portfolio-nav .portfolio-href {
