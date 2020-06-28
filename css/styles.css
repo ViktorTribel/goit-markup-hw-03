@@ -234,11 +234,10 @@ p {
   line-height: 1.1;
   text-align: center;
 }
-.section .email {
-  color: var(--secondary-text-color);
-}
+
 /*ameil*/
 .email-list {
+  padding-left: 32px;
   padding-bottom: 24px;
 }
 .email:hover,
@@ -293,6 +292,9 @@ p {
   color: var(--accent-color);
 }
 .button {
+  height: 44px;
+  width: 44px;
+  margin-right: 10px;
   color: var(--primary-text-color);
   background-color: var(--secondary-text-color);
   font-family: Roboto;
