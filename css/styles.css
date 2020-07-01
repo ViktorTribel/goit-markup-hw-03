@@ -40,7 +40,6 @@ p {
 }
 
 .page {
-  width: 1600px;
   margin: 0;
   padding: 0;
   color: var(--primary-text-color);
@@ -73,6 +72,7 @@ p {
   display: flex;
 }
 .double-section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -153,12 +153,11 @@ p {
 }
 /*hero*/
 .hero-background {
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: grey;
 }
 .hero-title {
-  padding-top: 200px;
-  padding-bottom: 30px;
   text-align: center;
 
   color: var(--whit-color);
@@ -174,7 +173,6 @@ p {
 
 /*section*/
 .section-title {
-  padding-top: 94px;
   padding-bottom: 50px;
 
   color: var(--primary-text-color);
@@ -193,6 +191,9 @@ p {
   margin-right: 30px;
 }
 
+.our-boxinfo:last-child {
+  margin-right: 0;
+}
 .list-img {
   margin-right: 30px;
 }
@@ -213,8 +214,7 @@ p {
 }
 
 .team-list {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
 
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -225,7 +225,7 @@ p {
   text-align: center;
 }
 .section .work-list {
-  padding-bottom: 16px;
+  margin-top: 10px;
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -236,17 +236,19 @@ p {
 }
 
 /*ameil*/
+
 .email-list {
-  padding-left: 32px;
-  padding-bottom: 24px;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-bottom: 24px;
 }
+
 .email:hover,
 .email:focus {
   color: var(--accent-color);
 }
 /*feature*/
 .feature-list {
-  padding-top: 94px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -259,8 +261,8 @@ p {
 }
 
 .feature-list .title {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -280,6 +282,7 @@ p {
 }
 
 .feature-images {
+  display: block;
   padding: 25px 100px;
   background-color: var(--secondary-background-color);
 }
@@ -294,7 +297,6 @@ p {
 .button {
   height: 44px;
   width: 44px;
-  margin-right: 10px;
   color: var(--primary-text-color);
   background-color: var(--secondary-text-color);
   font-family: Roboto;
@@ -307,6 +309,10 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.button-item {
+  margin-right: 10px;
+}
+
 .button:hover,
 .button:focus {
   color: var(--whit-color);
@@ -363,10 +369,6 @@ p {
 .sait-button {
   padding-top: 20px;
 }
-.href-primary {
-  text-align: center;
-}
-
 .item-mailing {
   padding-top: 57px;
 }
