@@ -188,7 +188,7 @@ p {
   margin-right: 30px;
 }
 
-.our-boxinfo:last-child {
+.button-item:last-child {
   margin-right: 0;
 }
 .list-img {
@@ -348,29 +348,22 @@ p {
   background-color: #2f303a;
 }
 .footer {
-  display: flex;
-}
-.item-logo {
-  margin-right: 69px;
   padding-top: 45px;
+  padding-bottom: 28px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .item-adres {
-  padding-top: 9px;
+  margin-top: 9px;
 }
 
-.item-button {
-  margin-right: 94px;
-  padding-top: 57px;
-}
 .sait-button {
   padding-top: 20px;
 }
-.item-mailing {
-  padding-top: 57px;
-}
+
 .developed {
-  padding-top: 18px;
   color: rgba(255, 255, 255, 0.4);
   font-family: Roboto;
   font-style: normal;
