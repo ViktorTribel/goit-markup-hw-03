@@ -35,6 +35,7 @@ ul {
   padding: 0;
   list-style: 0;
 }
+
 p {
   margin: 0;
 }
@@ -286,6 +287,9 @@ p {
 /*customers-img*/
 .client-logo {
   margin-right: 30px;
+}
+.href-logo {
+  display: block;
 }
 
 .section .img-hover:hover {
