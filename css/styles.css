@@ -334,9 +334,6 @@ p {
 .adres-menu {
   display: block;
 }
-.adres-pozitsiya {
-  padding-top: 9px;
-}
 
 .adres-info:hover,
 .adres-info:focus {
@@ -344,7 +341,7 @@ p {
 }
 
 /*footer*/
-.foter-bacground {
+.footer-bacground {
   background-color: #2f303a;
 }
 .footer {
@@ -356,14 +353,22 @@ p {
 }
 
 .item-adres {
+  margin-top: 8px;
+}
+
+.adres-pozitsiya {
   margin-top: 9px;
 }
 
 .sait-button {
   padding-top: 20px;
 }
+.buton-styl {
+  margin-top: 20px;
+}
 
 .developed {
+  margin-top: 18px;
   color: rgba(255, 255, 255, 0.4);
   font-family: Roboto;
   font-style: normal;
@@ -374,6 +379,9 @@ p {
 }
 .border {
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.container-footer {
+  padding-bottom: 21px;
 }
 /*portfolio-nav*/
 .portfolio-nav .portfolio-href {
