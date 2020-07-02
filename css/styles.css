@@ -154,12 +154,14 @@ p {
 }
 /*hero*/
 .hero-background {
+  align-items: center;
+  text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: grey;
 }
 .hero-title {
-  text-align: center;
+  margin-bottom: 30px;
 
   color: var(--whit-color);
   font-family: Roboto;
@@ -170,6 +172,22 @@ p {
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.button-primary {
+  padding: 10px 32px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 6px;
+
+  color: var(--whit-color);
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  text-decoration: none;
+  letter-spacing: 0.06em;
 }
 
 /*section*/
@@ -296,8 +314,8 @@ p {
   color: var(--accent-color);
 }
 .button {
-  height: 44px;
   width: 44px;
+  height: 44px;
   color: var(--primary-text-color);
   background-color: var(--secondary-text-color);
   font-family: Roboto;
@@ -393,6 +411,10 @@ p {
   padding-bottom: 21px;
 }
 /*portfolio-nav*/
+.portfolio-background {
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
 .portfolio-nav .portfolio-href {
   display: flex;
   margin-left: auto;
@@ -411,13 +433,6 @@ p {
   text-align: center;
 }
 
-.portfolio-item {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .portfolio-class {
   display: flex;
   flex-wrap: wrap;
@@ -485,20 +500,4 @@ p {
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
-}
-.button-primary {
-  padding: 10px 32px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 6px;
-
-  color: var(--whit-color);
-  background-color: var(--accent-color);
-  border: 1px solid transparent;
-
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.8;
-  text-decoration: none;
-  letter-spacing: 0.06em;
 }
