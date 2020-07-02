@@ -415,12 +415,16 @@ p {
   padding-top: 93px;
   padding-bottom: 94px;
 }
+.zerro {
+  text-align: center;
+}
 .portfolio-nav .portfolio-href {
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 .href-item {
+  display: block;
   margin-left: 8px;
 }
 .portfolio-nav .option {
