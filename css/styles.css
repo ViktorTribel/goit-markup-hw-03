@@ -415,11 +415,18 @@ p {
   padding-top: 93px;
   padding-bottom: 94px;
 }
+.portfolio-content {
+  background-color: red;
+}
+.portfolio-item {
+  padding: 20px 24px;
+}
 .zerro {
   text-align: center;
 }
 .portfolio-nav .portfolio-href {
   display: flex;
+  margin-bottom: 34px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -427,6 +434,10 @@ p {
   display: block;
   margin-left: 8px;
 }
+.portfolio-img {
+  display: block;
+}
+
 .portfolio-nav .option {
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -446,7 +457,6 @@ p {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-top: 30px;
 }
 .portfolio-element:nth-child(3n) {
   margin-right: 0;
@@ -460,16 +470,15 @@ p {
   display: inline;
   background-color: var(--secondary-background-color);
 }
-
-.option:hover,
-.option:focus {
-  color: var(--whit-color);
-  background-color: var(--accent-color);
+.addition {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 8;
 }
-/*option-list*/
 .menu {
-  padding-top: 20px;
-
   color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -478,16 +487,14 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.addition {
-  padding-top: 8px;
 
-  color: var(--secondary-text-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1, 8;
+.option:hover,
+.option:focus {
+  color: var(--whit-color);
+  background-color: var(--accent-color);
 }
+/*option-list*/
+
 .text-addition {
   color: var(--whit-color);
   font-family: Roboto;
