@@ -416,12 +416,12 @@ p {
   padding-bottom: 94px;
 }
 .portfolio-content {
-  background-color: red;
 }
 .portfolio-item {
   padding: 20px 24px;
 }
 .zerro {
+  display: none;
   text-align: center;
 }
 .portfolio-nav .portfolio-href {
@@ -431,7 +431,7 @@ p {
   margin-right: auto;
 }
 .href-item {
-  display: block;
+  display: flex;
   margin-left: 8px;
 }
 .portfolio-img {
@@ -461,7 +461,7 @@ p {
 .portfolio-element:nth-child(3n) {
   margin-right: 0;
 }
-.portfolio-element:nth-child(-n + 3) {
+.portfolio-element:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 .option {
@@ -496,6 +496,7 @@ p {
 /*option-list*/
 
 .text-addition {
+  display: none;
   color: var(--whit-color);
   font-family: Roboto;
   font-style: normal;
