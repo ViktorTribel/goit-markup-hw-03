@@ -191,6 +191,9 @@ p {
 }
 
 /*section*/
+.team-class {
+  background-color: var(--secondary-background-color);
+}
 .section-title {
   margin-bottom: 50px;
 
